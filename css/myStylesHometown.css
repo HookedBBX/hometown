@@ -1,0 +1,247 @@
+body, html {
+    height: auto;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(214, 247, 247);
+}
+
+/*THIS IS FOR HEADER*/
+.bg-image {
+    background-image: url('../images/pexels-head2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+    opacity: 100%;
+    background-attachment: fixed;
+}
+
+.bg-text {
+    background-color: rgb(44, 38, 38); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 7px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    z-index: 1;
+    width: 90%;
+    padding: 40px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
+
+
+/*BODY 1ST PART*/
+#nasugbu {
+    padding-bottom: 90px;
+    background-repeat: no-repeat;
+    background-image: url('../images/BackgroundForFirstPart.jpg');
+    color: #f1f1f1;
+    
+}
+
+#space1 {
+    margin-inline: auto;
+    text-align: center
+
+}
+
+#nasugfirst {
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    padding: 6px;
+    padding-top: 40px;
+    /* box-shadow: 2px 2px 2px #333; */
+}
+
+#kuys1 {
+
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+    text-align: center;
+
+}
+
+#kuys2 {
+
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+    text-align: center;
+}
+
+#kuys3 {
+
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/opacity/see-through */
+    text-align: center;
+}
+
+.img-fluid {
+    border-radius: 12px;
+    
+}
+/*THIS IS FOR NAV BAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(129, 86, 33);
+  }
+
+  /*sticky nav bar*/
+
+.active {
+  background-color: #4CAF50;
+}
+
+/*epal*/
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+
+#please {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+    height: 100px;
+ 
+}
+
+
+.sticky {
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+
+
+/*THIS IS FOR THE PHOTO GALLERY*/
+#photogallery {
+    background-image: url('../images/BackgroundForPhotoGallery.jpg');
+    padding-top: 1px;
+    padding-bottom: 100px;
+    object-fit: cover;
+    transition: transform 1s ease-in-out;
+    opacity:90%;
+    background-attachment: fixed;
+}
+
+#id img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+#id img:hover {
+    opacity: 1;
+  }
+
+#photogallery h1 {
+    margin-bottom: 90px;
+    text-size-adjust: 50%;
+    text-shadow: 5px 4px rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 1px;
+
+    }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /*ABOUT SECTION*/
+  #about {
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    background-color: rgb(129, 86, 33);
+    color: white;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+
+  #welovetodive {
+    text-shadow: 5px 1px rgb(0, 0, 0);
+    padding-top: 100px;;
+    
+
+  }
+
+  #meow {
+    padding-bottom: 80px;
+  }
+
+  /******************Footer***********************/
+
+  .ContactUs {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 0px;
+    background-color: rgb(129, 86, 33);
+    text-align: center;
+    text-shadow: 3px 1px rgb(0, 0, 0);
+  }
+
+  #end {
+
+    font-size: small;
+  }

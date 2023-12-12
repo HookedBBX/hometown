@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Victor's Madlibs Story!</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/formJsStyle.css" />
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  </head>
+
+  <body>
+    <!---------------------Masterhead----------------------->
+    <header>
+      <div class="container">
+        <div class="align-items-center row">
+          <div class="col-12 py-3 text-center text-white">
+            <h1 class="text-uppercase fw-bold display-3 mb-0">HAVE YOU PLAYED Mad Libs</h1>
+            <p class="h4 mb-0">The Spirit Of Christmas in Lethbridge</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!---------------------Main Body Content----------------------->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 p-4">
+            <div class="panel white-bg h-100">
+              <h2>Do you know how to play Mad Libs?</h2>
+              <p class="h6 mb-4">
+                Think of simple words that match the parts of speech on this page. Then, use those words to fill in the blanks and create a story! Are you ready? Let's Begin!
+              </p>
+
+              <form id="madLibsForm">
+                <!--radio buttons-->
+                Are you ready?
+                <br>
+                <div class="d-inline-block ml-1">
+                  <input type="radio" id="kid" value="kid" name="happykid" />
+                  <label for="cats" class="mr-1">Yes</label>
+                  <input
+                    id="No"
+                    type="radio"
+                    name="sadkid"
+                    value="No"
+                  />
+                  <label for="No">No</label>
+                </div>
+        
+
+                <div>
+                  In the heart of Lethbridge, on a bright day, there's a place that always makes people
+                  <input type="text" id="emotion" />. Lethbridge is known for its fun activities like
+                  <input type="text" id="activity" /> . It is the spot to visit and enjoy the lovely atmosphere.
+
+                  One day,
+                  <input type="text" id="name" /> decided to host a Christmas event. They decorated
+                  <input type="text" id="decoration" />
+                  with garlands and lights, cooked ginger beef plus poutine, and played dodge ball with snow.
+
+                  The event was so alive filled with treats and
+                  <input type="text" id="adjective" />. games. 
+
+                  As the day went on, the Christmas event became even more exciting. The crowd dressed up in funny costumes, and the music played happy tunes. The whole town is filled with 
+                  <input type="text" id="adjectivee" /> vibes.
+                  
+                  While the people are happy and 
+                  jouyous, something unexpected happened. A big 
+                  <input type="text" id="bigwhat" />
+                  appeared!
+
+                  All the people were shocked. Everyone ran and searched for a place to hide. <input type="text" id="namee" /> chose to hide in the bathroom. He/She was so scared! But because he/she is a strong person, he/she was able to overcome it and survived the day.
+
+                  It was an adventurous day for everyone. Even though it is somehow scary, the people enjoyed the day a lot because of the experience. Truly one of a kind.
+
+                  Lethbridge is really a 
+                  <input type="text" id="adjectiveee" /> place, filled with fun, happiness, and <input type="text" id="adjectiveeee" />  
+                  If you ever visit, make sure to explore the area and experience the lovely atmosphere. It's a city you'll always remember!</div>
+                  <br>
+                  <div>
+
+                  <b> AWESOME! Our story is done. Click the button below to finish your story.</b>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-green btn-outline-danger px-4 mt-3">
+                Let's Read Your Story!
+                </button>
+              </form>
+            </div>
+          </div>
+          <!--Output Div-->
+          <div class="col-md-6 p-4" id="output"></div>
+        </div>
+      </div>
+    </section>
+    <!---------------------Your Custom Javascript----------------------->
+    <script src="js/formHandler.js"></script>
+  </body>
+</html>
